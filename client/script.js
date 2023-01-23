@@ -83,7 +83,8 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch("https://chatbot-sijj.onrender.com/", 
+    // const response = await fetch("https://chatbot-sijj.onrender.com/", 
+    const response = await fetch("https://chatai-zv7c.onrender.com", 
     {
         method: 'POST',
         headers: {
